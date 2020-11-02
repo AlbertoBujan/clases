@@ -6,3 +6,12 @@ h1 {
     color: red;
     text-align: center;
 }
+
+div {
+    color: yellow;
+    background-color: teal;
+}
+
+span {
+    background-color: tomato;
+}
