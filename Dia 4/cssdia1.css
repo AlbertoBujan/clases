@@ -1,0 +1,8 @@
+
+/* Si quisieramos que afecte a mas selectores se añade una coma y otro selector
+ */
+ /* tal que asi h1, p  */
+h1 {
+    color: red;
+    text-align: center;
+}
