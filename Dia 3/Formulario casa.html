@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -8,13 +8,20 @@
 </head>
 
 <body>
-    <form method="POST" action="Mi server random">
-        <fieldset>
+    
+    <fieldset>
+        
+        <hedaer>
             <h1>Motorbike Customer Requeriment</h1>
+        </hedaer>
+        
+        
+        <form method="POST" action="Mi server random">
+            
             <fieldset>
                 
-                
                 <legend>Customer details</legend>
+                
                 <div>
                     <label>Name
                         <input type="text" name="Name"/>
@@ -23,7 +30,7 @@
 
                 <div>
                     <label>e-mail 
-                        <input type="text" name="e-mail"/>
+                        <input type="email" name="e-mail"/>
                     </label>
                 </div>
 
@@ -35,7 +42,7 @@
 
                 <div>
                     <label>Date of birth
-                        <input type="text" name="Date of birth"/>
+                        <input type="date" name="Date of birth"/>
                     </label>
                 </div>
                 
@@ -53,9 +60,9 @@
                 </label>
             </div>
             
-            <p>Do you own a Motorbike?</p>
             
             <div>
+                <p>Do you own a Motorbike?</p>
                 <label>
                     <input type="checkbox" name="gender" value="yes">Yes
                 </label>
@@ -64,9 +71,9 @@
                 </label>
             </div>
 
-            <p>Select the Motorbike manufacturer</p>
-
+            
             <div>
+                <p>Select the Motorbike manufacturer</p>
                 <select>
                     <option>Honda</option>
                     <option>Suzuki</option>
@@ -76,13 +83,16 @@
                 </select>
             </div>
 
-           <br> 
-<!-- No se si esta guarrada del br esta muy correcta ...  -->
             <div>
-                <input type="submit">
+                <input type="submit"/>
             </div>
-
-            <h1>Customer Feedback</h1>
+    </form>
+<!-- La etiqueta hr no se usa mucho, sirve para meter una linea en el html  -->
+    <hr> 
+<!-- No olvidarse nunca en los form poner el post y el action IMPORTANTE -->
+    <form method="POST" action="Mi server random">
+            
+        <h1>Customer Feedback</h1>
 
             <div>
                 <label>Name
