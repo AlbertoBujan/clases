@@ -1,0 +1,22 @@
+
+
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    text-align: center;
+}
+
+caption {
+    background-color: red;
+}
+
+th {
+    background-color: yellow;
+}
+/* even pares odd impares  */
+tr:nth-child(even) {
+    background-color: grey;
+}
+

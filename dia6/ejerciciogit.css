@@ -1,0 +1,44 @@
+
+
+
+article.blog {
+    border: 1px black solid;
+    border-radius: 5px;
+    width:300px;
+}
+
+article.blog > img {
+    
+    border-radius: 5px 5px 0px 0px;
+    
+}
+
+body {
+    padding: 50px;
+}
+
+.article-content {
+    padding: 20px;
+}
+
+article.blog > footer {
+    border-top: 1px solid black;
+    padding: 12px;
+    color: gray;
+}
+
+div.article-content > h1 {
+    color: grey;
+}
+
+div.article-content > a::after {
+    content: ">>"
+}
+
+div.article-content > a {
+    color: black;
+    text-transform: uppercase;
+    font-size: 8px;
+}
+
+

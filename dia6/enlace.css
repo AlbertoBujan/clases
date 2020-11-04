@@ -1,0 +1,23 @@
+
+
+
+#try {
+
+    background-color: #4CAF50;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+}
+/* Hover es la propiedad que se usa cuando pasas el raton por encima  */
+#try:hover {
+    background-color:  #86e68a ;
+}
+
+div {
+    padding: 50px;
+}
+/* Esto sirve para poner contenido que no forme parte de la label  */
+#try::after {
+    content: ">>" ;
+}
