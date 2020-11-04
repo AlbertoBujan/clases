@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="Mi server random"> 
+        <!-- Acordarse delform y los dos datos basicos method y action -->
+        <fieldset>
+            <legend>Datos personales</legend>
+            <p>
+                <label for="Nombre">Nombre</label>
+                <input placeholder="Inserte su nombre" type="text" name="Nombre" id="Nombre"/>
+    
+            </p>
+            <p>
+                <label for="Apellidos">Apellidos</label>
+                <input disabled type="text" name="Apellidos" id="Apellidos"/>
+    
+            </p>
+            <p>
+                <label for="Direccion">Direccion</label>
+                <input type="text" name="Direccion" id="Direccion"/>
+                
+            </p>
+            <p>
+                <label for="DNI">DNI</label>
+                <input placeholder="xxxxxxxx-x" type="text" name="DNI" id="DNI"/>
+                
+            </p>
+        </fieldset>
+
+    </form>
+
+    <form method="POST" action="Mi server random"> 
+        <!-- Acordarse del form y los dos datos basicos method y action que de momento nadie sabe para que es -->
+        <fieldset>
+            <legend>Datos personales</legend>
+            <div>
+                <label>Nombre:
+                    <input required placeholder="Inserte su nombre" type="text" name="Nombre"/>
+                </label>
+            </div>
+            <div>
+                <label>Apellido:
+                    <input disabled type="text" name="Apellido"/>
+            </div>
+
+            <div>
+                <label>Direccion:
+                    <input type="text" name="Direccion"/>
+                </label>
+            </div>
+
+            <div>
+                <label>DNI:
+                    <input placeholder="Inserte su DNI" type="text" name="DNI"/>
+            </div>
+
+            <div>
+                <label>Foto de perfil:
+                    <input type="file" name="Foto de perfil"/>
+            </div>
+
+            <div>
+                <input type="submit">
+            </div>
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>

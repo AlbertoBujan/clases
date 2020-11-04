@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tabla</title>
+</head>
+<!-- importante poner el tag thead y tbody para estructurar las listas, th para los encabezados 
+    y td para los datos, tr se usa para definir la lista  -->
+<body>
+    <h1>Tabla</h1>
+    <table border="1">
+        <caption>Aula 3</caption>
+        <thead>
+            <tr>
+                <th>10:00</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9:00</td>
+                <td rowspan="2">Matematicas</td>
+                <td>Lengua</td>
+                <td>Fisica</td>
+                <td>Quimica</td>
+                <td>Biologia</td>   
+            </tr>
+            <tr>
+                <td>10:00</td>
+                <td>Fisica</td>
+                <td>Lengua</td>
+                <td>Biologia</td>
+                <td rowspan="2">Quimica</td>
+            </tr>
+            <tr>
+                <td>11:00</td>
+                <td>Fisica</td>
+                <td>Fisica</td>
+                <td>Biologia</td>
+                <td>Lengua</td>
+            </tr>
+            <tr>
+                <td>12:00</td>
+                <td colspan="5">Recreo</td> <!--Esto es para que la columna ocupe dos espacios-->
+            </tr>
+            <tr>
+                <td>13:00</td>
+                <td rowspan="2">Fisica</td> <!--esto es para que la fila ocupe dos lugares-->
+                <td>Lengua</td>
+                <td rowspan="2">Biologia</td>
+                <td>Quimica</td>
+                <td>Matematicas</td>
+            </tr>
+            <tr>
+                <td>14:00</td>
+                <td>Fisica</td>
+                <td>Lengua</td>
+                <td>Lengua</td>
+            </tr>
+            <tr>
+                <td colspan="6">Año 2077</td>
+            </tr>
+        </tbody>
+         </table>
+    
+</body>
+
+</html>
