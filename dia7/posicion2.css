@@ -1,0 +1,25 @@
+
+
+#container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    padding: 30px;
+}
+
+#container-intermedio {
+    width: 140px;
+    height: 140px;
+    background-color: purple;
+    padding: 20px;
+}
+#hijo {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    background-color: red;
+    top: 0px;
+    right: 0px;
+}
+

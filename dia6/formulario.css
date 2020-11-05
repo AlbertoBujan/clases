@@ -1,6 +1,15 @@
 
 body {
-    background-color:rgba(0, 0, 0, 0.87);    
+    
+    background-color:rgba(0, 0, 0, 0.87);
+    height: 900px;
+    border: 100px white solid;
+    
+}
+/* esto directamente no funciona LoL */
+hr {
+    height: 10px;
+    background-color: white;
 }
 
 header {
@@ -9,10 +18,10 @@ header {
     font-family: 'Montserrat', sans-serif;
 }
 
-.separador {
+/* .separador {
     text-align: center;
     text-decoration: underline white;
-}
+} */
 
 
 .align {
@@ -22,41 +31,17 @@ header {
     font-family: 'Montserrat', sans-serif;
 }
 
-.nombre input {
+.formulario input {
     border: none;
     border-bottom: 1px solid white;
     background-color: rgba(0, 0, 0, 0);
-    width: 500px;
+    width: 400px;
 }
-.apellido input {
-    border: none;
-    border-bottom: 1px solid white;
-    background-color: rgba(0, 0, 0, 0);
-    width: 500px;
-}
-.ciudad input {
-    border: none;
-    border-bottom: 1px solid white;
-    background-color: rgba(0, 0, 0, 0);
-    width: 500px;
-}
-.telefono input {
-    border: none;
-    border-bottom: 1px solid white;
-    background-color: rgba(0, 0, 0, 0);
-    width: 500px;
-}
-.email input {
-    border: none;
-    border-bottom: 1px solid white;
-    background-color: rgba(0, 0, 0, 0);
-    width: 500px;
-}
-
 .mensaje input {
     border: none;
+    /* border-bottom: 1px solid white; */
     background-color: rgba(0, 0, 0, 0);
-    width: 500px;
+    width: 400px;
 }
 
 img {
@@ -69,7 +54,7 @@ textarea {
     border: none;
     border-bottom: 1px solid white;
     background-color: rgba(0, 0, 0, 0);
-    width: 500px;
+    width: 400px;
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
@@ -91,7 +76,6 @@ textarea {
 }
 
 #box {
-    background-color: red;
     border: none;
     cursor: pointer;
   }

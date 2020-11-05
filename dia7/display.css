@@ -1,0 +1,7 @@
+
+/* la propiedad display modifica el comportamiento de las etiquetas tipo bloque o tipo inline */
+
+
+.block {
+    display: block;
+}

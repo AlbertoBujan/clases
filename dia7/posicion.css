@@ -1,0 +1,36 @@
+/* atributo position relative + top left etc mueves la caja por el layout  */
+
+/* h1 {
+    position: relative;
+    top: 40px;
+    left: 30px;
+    z-index sirve cuando se superponen dos cajas atribuirle el valor de prioridad 30 vale mas que 10 y asi
+} */
+
+.bloque0 {
+    height: 250px;
+    background-color: purple;
+}
+
+.bloque {
+    height: 500px;
+    background-color: blue;
+    margin-top: 25px;
+}
+
+
+
+div.bloque2 {
+    background-color: green;
+    height: 20px;
+    width: 200px;
+    position: relative;
+    top: -134px;
+}
+
+div.bloque3 {
+    position: fixed;
+    top: 10px;
+    background-color: yellow;
+    z-index: 50;
+}
