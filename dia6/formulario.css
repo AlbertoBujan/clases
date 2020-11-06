@@ -1,95 +1,91 @@
 
-body {
-    
+body {  
     background-color:rgba(0, 0, 0, 0.87);
-    height: 900px;
-    border: 100px white solid;
-    
-}
-
-header {
-    text-align: center;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    height: 900px;
+    text-align: center;
 }
 
 span {
+    background-color: white;
     display: inline-block;
     height: 1px;
-    width: 40px;
-    background-color: white;
+    width: 70px;
 }
+
+.separadorfooter {
+    background-color: white;
+    display: inline-block;
+    height: 1px;
+    width: 750px;
+}
+
 
 div {
     text-align: center;
 }
 
-
-.separador {
-    height: 0.1px;
-    width: 500px;
-    background-color: white;
-}
-
-
 .align {
-    text-align: center;
-    color: white;
     padding: 20px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .formulario input {
     border: none;
     border-bottom: 1px solid white;
     background-color: rgba(0, 0, 0, 0);
+    color: white;
     width: 400px;
 }
 .mensaje input {
-    border: none;
-    /* border-bottom: 1px solid white; */
     background-color: rgba(0, 0, 0, 0);
+    border: none;
     width: 400px;
-}
-
-img {
-    color: white;
-    background-color: white;
-    
 }
 
 textarea {
     border: none;
     border-bottom: 1px solid white;
     background-color: rgba(0, 0, 0, 0);
-    width: 400px;
-    font-family: 'Montserrat', sans-serif;
     color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    position: relative;
+    right: -8px;
+    top: -60px;
+    width: 400px;
 }
 
 #politica {
     color: white;
-    position: inherit;
 }
 
 #boton {
 
-    color: white;
     background-color: rgb(1, 120, 255);
     border: 0;
+    color: white;
+    cursor: pointer;
     font-weight: bold;
     padding: 20px 250px;
-    cursor: pointer;
-    
 }
 
 #box {
     border: none;
     cursor: pointer;
-  }
+}
 
-  footer {
-      text-align: center;
-      padding: 50px;
-      letter-spacing: 5px;
-  }
+.box {
+    position: relative;
+    right: 81px;
+}
+
+footer {
+    letter-spacing: 5px;
+    padding: 50px;
+}
+
+img {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}

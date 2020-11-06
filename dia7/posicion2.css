@@ -1,4 +1,4 @@
-
+/* cuando la posicion del hijo es absoluta y la del padre relativa, el hijo basara siempre su posicion en base al padre  */
 
 #container {
     position: relative;
