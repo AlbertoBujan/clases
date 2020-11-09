@@ -1,0 +1,39 @@
+
+body {
+    background-color: black;
+    margin: 0;
+    height: 2000px;
+}
+
+header {
+    background-color: rgb(49, 47, 47);
+    display: flex;
+    position: sticky;
+    top: 0px;
+}
+
+nav {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-right: 14px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(60, 133, 216);
+}
+
+
+
+

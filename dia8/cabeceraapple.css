@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+    height: 2000px;
+}
+
+
+header {
+    background-color: rgb(51, 49, 49);
+    display: flex;
+    height: 44px;
+    flex: 0 1 8%;
+    
+}
+
+nav {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex: 1 1 8%;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(163, 163, 163);
+    font-family: 'Source Sans Pro', sans-serif;
+    flex: 0 2 8%;
+    transition: 0.5s;
+}
+
+img{
+    background-color: rgb(51, 49, 49);
+}
+
+a:hover {
+    color:  rgb(255, 255, 255);
+}

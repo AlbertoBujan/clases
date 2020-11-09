@@ -21,7 +21,6 @@ span {
     width: 750px;
 }
 
-
 div {
     text-align: center;
 }
@@ -35,13 +34,16 @@ div {
     border-bottom: 1px solid white;
     background-color: rgba(0, 0, 0, 0);
     color: white;
-    width: 400px;
+    width: 700px;
 }
+
 .mensaje input {
     background-color: rgba(0, 0, 0, 0);
     border: none;
-    width: 400px;
+    width: 700px;
+    
 }
+
 
 textarea {
     border: none;
@@ -53,7 +55,7 @@ textarea {
     position: relative;
     right: -8px;
     top: -60px;
-    width: 400px;
+    width: 700px;
 }
 
 #politica {
@@ -67,7 +69,7 @@ textarea {
     color: white;
     cursor: pointer;
     font-weight: bold;
-    padding: 20px 250px;
+    padding: 20px 339px;
 }
 
 #box {
@@ -77,7 +79,7 @@ textarea {
 
 .box {
     position: relative;
-    right: 81px;
+    right: 221px;
 }
 
 footer {
@@ -89,3 +91,24 @@ img {
     filter: invert(100%);
     -webkit-filter: invert(100%);
 }
+
+.formulario input:focus {
+    outline: 0;
+}
+
+textarea:focus {
+    outline: 0;
+}
+
+/* Ojo a esta locura para cambiar el checkbox */
+/* input[type=checkbox]::before {
+    content: "logo sin check" } */
+
+/* input[type=checkbox]:checked::before {
+    content: "logo con check";
+    color: white;
+}
+
+input[type=checkbox] {
+    opacity: 50;
+} */

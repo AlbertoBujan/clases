@@ -1,0 +1,27 @@
+
+
+.container-flex {
+    border: 3px solid orange;
+    display: flex;
+
+    resize: both;
+    overflow: auto;
+}
+
+.items {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.items:nth-child(even) {
+    background-color: purple;
+}
+
+.direction {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* propiedades de interes, flex-grow order  */
