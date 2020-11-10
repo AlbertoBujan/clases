@@ -1,0 +1,81 @@
+
+header {
+    background-color: yellow;
+    height: 64px;
+    margin: 6px;
+}
+
+article {
+    background-color: tomato;
+    height: 200px;
+    margin: 6px;
+}
+
+footer > div {
+    background-color: teal;
+    height: 150px;
+    margin: 6px;
+    display: none;
+}
+
+footer > div.important {
+    display: block;
+}
+
+
+@media (min-width: 600px) {
+    footer > div {
+        display: block;
+        flex: 0 1 48%;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header {
+        height: 140px;
+        margin: 6px;
+    }
+}
+
+@media (min-width: 900px) {
+        
+    header {
+        height: 200px;
+        margin: 0px;
+    }
+
+    main {
+        display: flex;
+        height: 400px;
+        /* align-items: stretch; */
+        justify-content: space-between;
+        margin: 0px;
+        
+    }
+
+    article {
+        flex: 0 1 32%;
+        height: 390px;
+        margin: 0px;
+        margin-top: 16px;
+       
+    }
+
+    footer {
+        display: flex;
+        height: 200px;
+        justify-content: space-between;
+        margin: 0px;
+        margin-top: 16px;
+      
+    }
+
+    footer > div {
+        flex: 0 1 23%;
+        height: 200px;
+    }
+}
