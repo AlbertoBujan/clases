@@ -1,0 +1,132 @@
+
+
+header {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    justify-content: center;
+}
+
+header > div {
+    height: 140px;
+    background-color: blue;
+    width: 98%;
+}
+
+nav {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    justify-content: center;
+}
+
+nav > div {
+    height: 140px;
+    background-color: green;
+    width: 98%;
+}
+
+main {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+}
+
+main > article {
+    height: 399px;
+    background-color: red;
+    width: 98%;
+    flex-grow: 2;
+}
+
+.nomobile {
+    display: none;
+}
+.verde {
+    display: none;
+}
+
+@media (min-width: 600px) {
+
+    header {
+        display: flex;
+        height: 100px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    header > div {
+        height: 90px;
+        background-color: blue;
+        width: 98%;
+    }
+
+    nav {
+        display: flex;
+        height: 200px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    nav > div {
+        height: 190px;
+        background-color: green;
+        width: 98%;
+    }
+
+    main {
+        display: flex;
+        height: 700px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    main > article {
+        height: 690px;
+        background-color: red;
+        width: 90%;
+        margin: 5px;
+    }
+
+    .nomobile {
+        display: block;
+        background-color: tomato;
+    }
+
+    .verde {
+        display: none;
+    }
+
+}
+
+@media (min-width: 992px) {
+    header {
+        display: flex;
+        height: 100px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    header > div {
+        height: 90px;
+        background-color: blue;
+        width: 98%;
+    }
+
+    nav {
+        display: none;
+    }
+
+    main {
+        display: flex;
+        height: 700px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .verde {
+        background-color: green;
+        display: block;
+    }
+}

@@ -1,0 +1,180 @@
+body {
+    background-color: rgba(0,99,65,1);
+    margin: 0px;
+    margin-top: 10px;
+    
+    
+}
+
+header {
+    position: relative;
+    display: flex;
+    height: 100px;
+    background-color: white;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+div {
+    position: relative;
+    display: flex;
+    height: 92px;
+    width: 90%;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.container {
+    display: flex;
+    height: 50px;
+    width: 80%;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.container > a {
+    text-decoration: none;
+    color: black;
+    width: auto;
+    flex: 0 1 auto;
+    margin: 20px;
+    font-family: "Lato";
+    text-transform: uppercase;
+}
+
+#tiendas {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-family: "Lato";
+
+}
+
+#logo {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.div-main {
+    display: flex;
+    height: 560px;
+    width: 100%;
+    border-bottom: 4px solid white;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-cupon {
+    display: flex;
+    height: 40px;
+    width: 305px;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid white;
+    top: -54px;
+}
+
+.div-cupon > a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Lato";
+    letter-spacing: 7px;
+    font-weight: bold;
+}
+
+
+
+
+
+@media (max-width: 950px) {
+    header {
+        position: relative;
+        display: flex;
+        height: 175px;
+        background-color: white;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    
+    div {
+        position: relative;
+        display: flex;
+        height: 164px;
+        width: 90%;
+        justify-content: center;
+        align-items: flex-end;
+        
+    }
+    
+    .container {
+        height: 100px;
+        width: 99%;
+    }
+    
+    .container > a {
+        margin-right: 0px;
+        
+        
+    }
+    
+    #tiendas {
+        top: 5px;
+        right: 5px;
+        
+    }
+    
+
+    .div-main {
+        display: flex;
+        height: 400px;
+    }
+}
+
+@media (max-width: 650px) {
+    header {
+        position: relative;
+        display: flex;
+        height: 105px;
+        background-color: white;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    
+    div {
+        height: 100px;
+        width: 90%;
+        
+    }
+    
+    .container {
+        height: 100px;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    
+    .container > a {
+        display: none;  
+    }
+    
+    #tiendas {
+        margin-top: 50px;
+        right: 5px;
+        font-size: 0px;
+    }
+    
+
+    .div-main {
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    
+}
