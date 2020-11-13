@@ -1,0 +1,59 @@
+@keyframes rotar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(2)
+    }
+}
+
+body {
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    background-color: tomato;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.item {
+    border: 10px solid black;
+    border-radius: 50%;
+    border-top: 10px solid transparent;
+    /* background-color: aqua; */
+    height: 100px;
+    width: 100px;
+    animation-name: rotar;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.git {
+    position: absolute;
+}
+
+img {
+    animation-name: zoom;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

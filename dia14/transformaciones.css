@@ -1,0 +1,32 @@
+
+body {
+    text-align: center;
+}
+
+
+
+
+.container {
+    height: 300px;
+    margin: 0 auto;
+    width: 300px;
+    background-color: tomato;
+}
+
+.item {
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+
+.mover:hover {
+    transform: translate(16px, 24px);
+}
+
+.aumentar:hover {
+    transform: scale(3);
+}
+
+.rotar:hover {
+    transform: rotate(45deg);
+}
